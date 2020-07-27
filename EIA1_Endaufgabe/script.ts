@@ -5,7 +5,7 @@ function playSample(sound: string): void {
         audios.play();
 }
 
-//all Sounds
+/*//ALL SOUNDS
 var allSounds: string[] = ["sound_boing_2.mp3", "sound_boing.mp3", "sound_kids_booo.mp3", "sound_laugh.mp3"];
 
 //play Random sound at the beginning #1
@@ -13,7 +13,7 @@ function soundEasy(): void {
     for (let i: number = 0; i < 3; i++) {
         sounds.push(allSounds[Math.floor(Math.random() * 3)]);
     }
-}
+}*/
 
 //Play random sound at beginnig of game #2
 function sounds(): void {
